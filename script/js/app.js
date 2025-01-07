@@ -43,7 +43,7 @@ class Utente {
     prenotaMezzo(mezzo) {
         // Ferma la prenotazione se si sta già utilizzando un altro mezzo o è occupato
         if (this.mezzoInUso) {
-            console.log("Prenotazione rifiutata, terminare prima l'utilizzo dell'attuale mezzo in uso.");
+            console.log("Prenotazine rifiutata, terminare prima l'utilizzo dell'attuale mezzo in uso.");
             return;
         }
         else if (mezzo.stato == attualmente.occupato) {
@@ -118,5 +118,3 @@ user3.prenotaMezzo(monopattino);
 milano.mostraMezzi();
 // Mostra solo i mezzi disponibili
 milano.mostraMezziDisponibili();
-
-//prova
