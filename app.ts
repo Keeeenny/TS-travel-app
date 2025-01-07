@@ -201,7 +201,7 @@ user1.prenotaMezzo(scooter)
 user2.prenotaMezzo(bici2);
 user3.prenotaMezzo(monopattino);
 
-// Mostra tutti i mezzi
+// Mostra tutti i mezzi a Milano
 milano.mostraMezzi();
 // Mostra solo i mezzi disponibili
 milano.mostraMezziDisponibili();
