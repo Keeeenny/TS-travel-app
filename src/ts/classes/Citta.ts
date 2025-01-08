@@ -1,5 +1,5 @@
-import { IMezzo,ICitta } from "../interfaces";
-import { attualmente } from "../models";
+import { IMezzo,ICitta } from "../interfaces.js";
+import { attualmente } from "../models.js";
 
 export class Citta implements ICitta {
   citta: string;

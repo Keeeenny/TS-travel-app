@@ -1,5 +1,5 @@
-import { IMezzo, IUtente } from "../interfaces";
-import { attualmente, stato, tipoMezzo } from "../models";
+import { IMezzo, IUtente } from "../interfaces.js";
+import { attualmente, stato, tipoMezzo } from "../models.js";
 
 export class Mezzo implements IMezzo {
   private static counter: number = 1;

@@ -1,7 +1,7 @@
-import { Utente } from "./classes/Utente";
-import { Citta } from "./classes/Citta";
-import { Mezzo } from "./classes/Mezzo";
-import { mezzi } from "./models";
+import { Utente } from "./classes/Utente.js";
+import { Citta } from "./classes/Citta.js";
+import { Mezzo } from "./classes/Mezzo.js";
+import { mezzi } from "./models.js";
 
 // Creazione di vari mezzi
 const bici: Mezzo = new Mezzo(mezzi.bici);

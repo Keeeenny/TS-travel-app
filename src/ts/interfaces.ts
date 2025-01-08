@@ -1,4 +1,4 @@
-import { stato, tipoMezzo } from "./models";
+import { stato, tipoMezzo } from "./models.js";
 
 //Interfacce
 export interface IMezzo {

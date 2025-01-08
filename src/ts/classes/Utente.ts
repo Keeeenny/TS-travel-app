@@ -1,6 +1,6 @@
-import { IUtente } from "../interfaces";
-import { Mezzo } from "./Mezzo";
-import { attualmente } from "../models";
+import { IUtente } from "../interfaces.js";
+import { Mezzo } from "./Mezzo.js";
+import { attualmente } from "../models.js";
 
 export class Utente implements IUtente {
   nome;
